@@ -11,6 +11,7 @@ export const metadata: Metadata = {
   title: "File Converter - Convert Any File Instantly",
   description:
     "Transform your files between formats with speed and precision. Supports images, documents, audio, and more.",
+  metadataBase: "https://convert.vacer.de",
   icons: {
     icon: [
       {
