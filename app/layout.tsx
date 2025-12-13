@@ -24,7 +24,7 @@ export const metadata: Metadata = {
   openGraph: {
     images: [
       {
-        url: "/opengraph-image.png",
+        url: "https://convert.vacer.de/opengraph-image.png",
       },
     ],
   },
