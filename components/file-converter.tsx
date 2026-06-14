@@ -11,7 +11,7 @@ import { Badge } from "@/components/ui/badge"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { convertFile, getConversionOptions, formatFileSize } from "@/lib/file-converter"
 import Link from "next/link"
-import Vacer from "@/components/logo"
+import { Logo as Vacer } from "@/components/logo"
 
 export default function FileConverter() {
   const [file, setFile] = useState<File | null>(null)
