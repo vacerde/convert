@@ -1,3 +1,5 @@
+import { analyticsRewrites } from '@vacer/analytics/server';
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
@@ -5,6 +7,9 @@ const nextConfig = {
   },
   images: {
     unoptimized: true,
+  },
+  async rewrites() {
+    return analyticsRewrites();
   },
 }
 

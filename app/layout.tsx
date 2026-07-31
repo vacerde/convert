@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vacer/analytics"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
@@ -46,7 +46,7 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           {children}
-          <Analytics />
+          <Analytics webVitals />
         </ThemeProvider>
       </body>
     </html>
