@@ -1,4 +1,4 @@
-import { createAnalyticsRouteHandler } from '@vacer/analytics/server';
+import { createAnalyticsRouteHandler } from '@ascr/analytics/server';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';

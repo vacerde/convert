@@ -1,4 +1,4 @@
-import { analyticsRewrites } from '@vacer/analytics/server';
+import { analyticsRewrites } from '@ascr/analytics/server';
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

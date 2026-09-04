@@ -1,7 +1,7 @@
 import type React from "react"
 import type { Metadata } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
-import { Analytics } from "@vacer/analytics"
+import { Analytics } from "@ascr/analytics"
 import { ThemeProvider } from "@/components/theme-provider"
 import "./globals.css"
 
