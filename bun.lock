@@ -5,7 +5,7 @@
     "": {
       "name": "vacer-convert",
       "dependencies": {
-        "@ascr/analytics": "^1.0.0",
+        "@ascr/analytics": "^1.0.1",
         "@hookform/resolvers": "^3.10.0",
         "@radix-ui/react-accordion": "1.2.2",
         "@radix-ui/react-alert-dialog": "1.1.4",
@@ -72,7 +72,7 @@
   "packages": {
     "@alloc/quick-lru": ["@alloc/quick-lru@5.2.0", "", {}, "sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw=="],
 
-    "@ascr/analytics": ["@ascr/analytics@1.0.0", "", { "peerDependencies": { "react": ">=18.0.0" }, "bin": { "analytics-init": "dist/cli.js" } }, "sha512-dhiVsvTG3644NEUw14Pwh/T6DWUryd9qIyIWHQFq032GVJibh8ALIbBjf/5lQ3tEPSYpDynt96l7mdjv8Y2tUg=="],
+    "@ascr/analytics": ["@ascr/analytics@1.0.1", "", { "peerDependencies": { "react": ">=18.0.0" }, "bin": { "analytics-init": "dist/cli.js" } }, "sha512-DVosnvLwKJedx+vxbOWn2E7RB0tPRHYjIzffCA7o5a0lscJ6vK7YeQvSowWfxplbWBX7ANCT1US/Dvf5nKcnaw=="],
 
     "@babel/runtime": ["@babel/runtime@7.29.7", "", {}, "sha512-Nq8OhGWiZIZGV6hLHoyAKLLcJihP/xFeBMGJoUrxTX2psI8dCifzLhZISFb+VWS3wFMRDmCGw5R+dOySCqPLhw=="],
 
